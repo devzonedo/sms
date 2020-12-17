@@ -78,7 +78,7 @@ public class RegisterServlet extends HttpServlet {
 
             }
 
-            request.setAttribute("msg", msg);
+            request.setAttribute("msgx", msg);
             rd = request.getRequestDispatcher("registration.jsp");
 
             rd.forward(request, response);

@@ -83,7 +83,7 @@
                         <h1>SMS</h1>
                         <h3>Student Registration</h3>
 
-                        ${msg}
+                        ${msgx}
 
                         <form action="RegisterServlet" method="post">
                             <div class="mb-3">
