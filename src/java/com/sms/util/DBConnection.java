@@ -15,7 +15,7 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     public Connection getConnection() {
-
+        System.out.println("DB Connecting");
         Connection con = null;
 
         String dbhost = "jdbc:mysql://localhost:3306/smsdb";
